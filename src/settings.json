@@ -1,0 +1,8 @@
+{
+  "API_KEY": "AIzaSyD-wnFmu62kTzV18Pcn3Jv_XGZYypzu0bI",
+  "AUTH_DOMAIN": "react-native-router-flux.firebaseapp.com",
+  "DATABASE_URL": "https://react-native-router-flux.firebaseio.com",
+  "PROJECT_ID": "react-native-router-flux",
+  "STORAGE_BUCKET": "react-native-router-flux.appspot.com",
+  "MESSAGING_SENDER_ID": 336079429951
+}

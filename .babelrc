@@ -1,3 +1,23 @@
 {
-  "presets": ["react-native"]
+ "passPerPreset": true,
+"presets": [
+  "react-native"
+],
+"plugins": [
+  "transform-class-properties",
+  "mobx-deep-action",
+  [
+    "@babel/plugin-proposal-decorators",
+    {
+      "legacy": true
+    }
+  ]
+],
+  "env": {
+    "production": {
+      "plugins": [
+        "transform-remove-console"
+      ]
+    }
+  }
 }
